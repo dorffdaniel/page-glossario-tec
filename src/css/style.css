@@ -28,7 +28,7 @@ main{
 }
 
 .conteudo{
-    height: 70vh;
+    height: 75vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
