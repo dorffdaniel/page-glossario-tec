@@ -7,6 +7,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
 main{
     background-color: rgb(247, 239, 224);
 }
@@ -26,6 +31,32 @@ main{
     text-transform: uppercase;
     font-family: "Roboto", serif;
 }
+
+.container .bx{
+    margin-top: 1em;
+    font-size: 4.5em;
+    color: #000;
+    animation: movimento infinite linear 2s;
+    opacity: 0;
+}
+
+@keyframes movimento {
+    0%{
+        opacity: 0.5;
+        transform: translateY(-15px);
+    }
+
+    50%{
+        transform: translateY(20px);
+        opacity: 0.8;
+    }
+
+    100%{
+        transform: translateY(-15px);
+        opacity: 0;
+    }
+}
+
 
 .conteudo{
     height: 75vh;
