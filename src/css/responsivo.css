@@ -1,5 +1,9 @@
 
 @media (min-width: 320px) and (max-width: 570px){
+    .container .bx{
+        display: none;
+    }
+    
     .conteudo{
         height: 88vh;
         display: flex;
@@ -91,6 +95,10 @@
 
 
 @media(min-width:768px) and (max-width: 991px){
+    .container .bx{
+        font-size: 3em;
+    }
+
     .conteudo{
         height: auto;
         padding: 1em;

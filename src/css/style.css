@@ -30,6 +30,7 @@ main{
     margin-bottom: 1em;
     text-transform: uppercase;
     font-family: "Roboto", serif;
+    text-align: center;
 }
 
 .container .bx{
