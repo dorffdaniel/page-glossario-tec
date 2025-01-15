@@ -1,0 +1,157 @@
+
+@media (min-width: 320px) and (max-width: 570px){
+    .conteudo{
+        height: 88vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.4em 0.5em;
+    }
+
+    .primeira-coluna{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .segunda-coluna{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding-left: 1em;
+        justify-content: center;
+    }
+
+    .conteudo button{
+        font-size: 0.8em;
+        padding: 0.4em;
+    }
+
+    .res{
+        width: 100%;
+        font-size: calc(1vw + 0.8em);
+        padding: 1em 1em 0;
+    }
+
+    .resposta2 p{
+        font-size: calc(1vw + 0.9em);
+        padding: 1em 0.7em;
+    }
+}
+
+
+@media(min-width: 577px) and (max-width: 767px){
+    .conteudo{
+        height: 88vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5em 0.5em;
+    }
+    
+    .primeira-coluna{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .segunda-coluna{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        padding-left: 1em;
+        justify-content: center;
+    }
+
+    .conteudo button{
+        font-size: 0.7em;
+        padding: 0.3em;
+    }
+
+    .res{
+        height: 40vh;
+        width: 100%;
+        font-size: calc(1vw + 0.6em);
+        padding: 1em 1em 0;
+    }
+
+    .resposta2 h2{
+        font-size: calc(1vw + 0.7em);
+    }
+}
+
+
+@media(min-width:768px) and (max-width: 991px){
+    .conteudo{
+        height: auto;
+        padding: 1em;
+        margin-top: 8em;
+    }
+
+    .conteudo button{
+        font-size: 0.8em;
+        padding: 0.3em;
+    }
+
+    .res{
+        font-size: 1.1em;
+        left: 48%;
+        margin-right: 2em;
+        height: auto;
+    }
+
+    .resposta2 h2{
+        font-size: calc(1vw + 0.8em);
+    }
+
+    .resposta2 p{
+        font-size: calc(1vw + 0.7em);
+        margin: 0 1em;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px){
+    .conteudo{
+        height: auto;
+        padding: 1.5em;
+    }
+
+    .conteudo button{
+        font-size: 0.9em;
+        padding: auto;
+    }
+
+    .res{
+        font-size: calc(1vw + 0.6em);
+    }
+
+    .resposta2 p{
+        font-size: calc(1vw + 0.7em);
+        margin: 0 2em;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1900px){
+    .conteudo{
+        height: 75vh;
+    }
+    
+    .conteudo button{
+        font-size: 0.8em;
+        padding: 0.3em;
+    }
+
+    .resposta2 p{
+        margin: 0 1em;
+    }
+}

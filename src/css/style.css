@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(247, 239, 224);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container h1{
+    font-size: calc(1vw + 1em);
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-family: "Roboto", serif;
+}
+
+.conteudo{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(to left, #131414, #101010);
+}
+
+.conteudo button{
+    cursor: pointer;
+    font-size: 1em;
+    padding: 0.7em;
+    border-radius: 2em;
+    border: none;
+    background: #0473f1;
+    color: #fff;
+    transition: all ease 0.5s;
+    font-family: "Lato", serif;
+}
+
+.conteudo button:hover{
+    transition: all ease 0.7s;
+    transform: scale(1.1);
+    box-shadow: 0 0 5px #8097ea,
+    0 0 10px #5561e3,
+    0 0 20px #5139cc,
+    0 0 30px #2f2fcd;
+    background: #7d99e7;
+    color: #ffffff;
+}
+
+.conteudo button:focus{
+    transition: all ease 0.5s;
+    background: transparent;
+    color:  #0473f1;
+    border: 2px solid #fff;
+}
+
+.primeira-coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    padding-left: 2em;
+}
+
+.segunda-coluna{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    padding-right: 2em;
+}
+
+.res{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(1vw + 0.7em);
+    max-width: 120em;
+    height: auto;
+    text-align: center;
+    font-family: "Lato", serif;
+    color: #fff;
+}
+
+.resposta2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.resposta2 h2{
+    font-family: "Roboto", serif;
+    font-size: calc(1vw + 1em);
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.resposta2 p{
+    font-family: "Lato", serif;
+    padding: 1em 0;
+    font-size: calc(1vw + 0.5em);
+    max-width: 60em;
+    text-align: center;
+}
+
+.mostrar{
+    opacity: 0;
+    filter: blur(5px);
+    transition: all 2s;
+} 
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 2s;
+}
+
+.efeito{
+    opacity: 0;
+    filter: blur(20px);
+    transition: all 2s;
+    transform: translatey(200%);
+}
+
+.efeitoAparecer{
+    opacity: 1;
+    filter: blur(0);
+    transition: all 2s;
+    transform: translatey(0);
+}
+
+
