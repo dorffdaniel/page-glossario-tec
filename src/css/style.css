@@ -176,4 +176,61 @@ main{
     transform: translatey(0);
 }
 
+.linguagens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.linguagens h2{
+    font-family: "Roboto", serif;
+    font-size: calc(1vw + 1em);
+    margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+.conteudo-Linguagens{
+    width: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+    position: relative;
+    padding: 2em 0;
+}
+
+.rolagem-imagens{
+    display: flex;
+    gap: 40px;
+    animation: scroll 30s linear infinite;
+    filter: brightness(60%);
+    transition: all ease 1s;
+}
+
+.rolagem-imagens:hover{
+    filter: brightness(100%);
+    transition: ease 1s;
+    transition: all ease 1s;
+}
+
+
+.rolagem-imagens img{
+    height: 6em;
+    border-radius: 1em;
+    object-fit: cover;
+    cursor: pointer;
+    transition: all ease 1s;
+}
+
+.rolagem-imagens img:hover{
+    transform: scale(1.2);
+    transition: all ease 1s;
+}
+
+@keyframes scroll {
+    from{
+        transform: translate(100%);
+    }to{
+        transform: translate(-100%);
+    }
+}
 
